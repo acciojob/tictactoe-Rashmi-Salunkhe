@@ -1,27 +1,29 @@
-/*  your css code here. If applicable */
-  .container {
-            max-width: 600px;
-            margin: 0 auto;
-            text-align: center;
-        }
-        .board {
-            display: grid;
-            grid-template-columns: repeat(3, 100px);
-            grid-template-rows: repeat(3, 100px);
-            gap: 10px;
-            margin: 20px auto;
-        }
-        .cell {
-            width: 100px;
-            height: 100px;
-            background-color: #f0f0f0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 24px;
-            cursor: pointer;
-        }
-        .message {
-            margin: 20px 0;
-            font-size: 20px;
-        }
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.message {
+    margin: 20px 0;
+    font-size: 20px;
+}
